@@ -1,0 +1,158 @@
+.hover {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+  }
+
+  .hover-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    transition: all 0.4s;
+  }
+
+  .hover img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+  }
+
+  .hover-content {
+    position: relative;
+    z-index: 99;
+  }
+
+  .hover-2 .hover-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+  }
+  
+  .hover-2-title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+    transition: all 0.3s;
+  }
+  
+  .hover-2-description {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    text-align: center;
+    z-index: 99;
+    transition: all 0.3s;
+  }
+  
+  .hover-2:hover .hover-2-title {
+    transform: translateY(-1.5rem);
+  }
+  
+  .hover-2:hover .hover-2-description {
+    bottom: 0.5rem;
+    opacity: 1;
+  }
+  
+  .hover-2:hover .hover-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+  }
+
+  .carousel-ser {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+  }
+
+  .nav-pills .nav-link.active {
+    background-color: #385E3C!important;
+}
+
+.counter
+{
+    background-color: #ffffff;
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color:   #385E3C;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.fa {
+  padding: 1rem;
+  font-size: 1.5rem;
+  width: 3.125rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.3125rem;
+  border-radius: 50%;
+  background: #343A40;
+  color: white;
+
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+  text-decoration: none;
+}
+.fa-google:hover {
+  background: #dd4b39;
+  color: white;
+  text-decoration: none;
+}
+.fa-dropbox:hover {
+  background: #0060FF ;
+  color: white;
+  text-decoration: none;
+}
